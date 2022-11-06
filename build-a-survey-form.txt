@@ -1,0 +1,126 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<title>Survey Form</title>
+</head>
+<body>
+
+<h1 id="title">Survey Form </h1>
+
+<p id="description"><em>A survey to study the effect of money on happiness for ages between 15 and 35</></p>
+
+<form id="survey-form">
+  <label id="name-label" class="details">Name <input type="text" id="name" placeholder="Enter Full Name" required></label>
+
+  <label id="email-label" class="details">Email <input type="email" id="email" placeholder="Enter Email" required></label>
+
+  <label class="details" id="number-label">Age <input type="number" id="number" min="15" max="35" placeholder="Enter Age">
+
+
+<label for="dropdown" class="details">
+  What best describes you ?
+
+<select id="dropdown">
+<option>(Select one)</option>
+<option>Student</option>
+<option>Unemployed</option>
+<option>Employed</option>
+<option>Self Employed</option>
+<option>Other</option>
+</select>
+</label>
+
+<label >Does money affect your happiness?: 
+ <label> <input type="radio" name="money-happiness" value="No" /> No </label>
+
+ <label>
+  <input type="radio" name="money-happiness" value="Somewhat" /> Somewhat
+  </label>
+
+  <label ">
+  <input type="radio" name="money-happiness" value="Yes"/> Definitely yes
+  </label>
+</label>
+
+<label>Select at least one of the statement(s) you agree with: 
+  <label class="affect">
+  <input type="checkbox" value="poor" >Poor people can be happy 
+  </label>
+  <label class="affect">
+  <input type="checkbox" value="shopping">Shopping makes me happy
+  </label>
+  <label class="affect">
+  <input type="checkbox" value="evil">Money is the root of evil
+  </label>
+  <input type="checkbox" value="rich">Rich people are rarely happy
+</label>
+
+<label class="share">Share any thoughts you have about the relationship between money and happiness:
+  <textarea placeholder="Money can buy happiness as..."></textarea>
+</label>
+
+<input id="submit" value="submit" type="submit"/>
+</form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-image: url(https://free4kwallpapers.com/uploads/originals/2015/08/25/website-background.jpg);
+  color:white;
+  font-size:18;
+  }
+  p , h1{ 
+    text-align:center;
+  }
+
+  input{
+    margin:10;
+    
+  }
+
+  textarea{
+    height:90px;
+    width:250;
+    display:block;
+    margin: 30 auto;
+  }
+  input[type="submit"]{
+    display: block;
+    margin: 30px auto;
+    padding:8;
+    font-size:15;
+  }
+ .details{
+   display:block;
+ }
+ input[type="number"]{
+   margin-left:25;
+   width:175
+ }
+ form{
+   text-align:center;
+ }
+
+ .share{
+   display:block;
+   margin:30 auto;
+ }
+ .affect{
+   display:block;
+ }
+ 
+  
+
+  
+
+** end of undefined **
+
